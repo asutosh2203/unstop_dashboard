@@ -1,5 +1,11 @@
 :root {
+  --primary-color: #1c4980;
+  --secondary-color: #0073e6;
   --system-background: #f6f8fa;
+  --border-color: #bacbd5;
+  --accent-purple: #6548EE;
+  --accent-purpleLight: #EBE8FD;
+  --x-space: 1.25rem;
 }
 .App {
   display: flex;

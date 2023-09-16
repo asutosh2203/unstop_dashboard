@@ -1,8 +1,3 @@
-:root {
-  --primaryColor: #1c4980;
-  --accentColor: #0073e6;
-}
-
 .sidebarItem {
   display: flex;
   /* added to stop jumpy thing when hovering */
@@ -37,7 +32,7 @@
 
 .selected,
 .sidebarItem:hover {
-  border: 2px var(--accentColor) solid;
+  border: 2px var(--secondary-color) solid;
   border-radius: 0.5rem;
   background-color: #e5f1fc;
 }

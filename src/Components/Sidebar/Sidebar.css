@@ -1,13 +1,8 @@
-/* :root {
-  --primaryColor: #1c4980;
-  --accentColor: #0073e6;
-} */
-
 .sidebar {
   position: fixed;
   height: 100vh;
   padding: 2.5rem 1.25rem;
-  color: var(--primaryColor);
+  color: var(--primary-color);
   width: 80%;
   min-width: 300px;
   font-weight: 500;
@@ -38,7 +33,7 @@
 .sidebar_items {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px dashed #bacbd5;
+  border-bottom: 1px dashed var(--borderColor);
   padding: 0.5rem 0;
   gap: 0.5rem;
 }

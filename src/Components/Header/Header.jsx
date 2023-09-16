@@ -27,10 +27,10 @@ const Header = () => {
       <div className='assessmentTypes'>
         <div
           className={`assessmentType_container ${
-            selected ? 'border-accentColor' : 'border-slate-100'
+            selected ? 'border-secondary-color' : 'border-slate-100'
           }`}
         >
-          <p className={`${selected && 'text-accentColor'}`}>My Assessments</p>
+          <p className={`${selected && 'text-secondary-color'}`}>My Assessments</p>
         </div>
         <div className='assessmentType_container border-slate-100'>
           <p className=''>Unstop Assessments</p>

@@ -1,8 +1,13 @@
 import './App.css';
-import { Header, Sidebar } from './Components/index';
+import {
+  Header,
+  Sidebar,
+  Overlay,
+  Banner,
+  AssessmentList,
+} from './Components/index';
 import { useRecoilValue } from 'recoil';
 import { sidebarAtom } from './recoil/atoms';
-import Overlay from './Components/Overlay/Overlay';
 
 const App = () => {
   console.log('rendering');
@@ -15,6 +20,8 @@ const App = () => {
       {isSidebarActive && <Overlay />}
       <div className='app_body'>
         <Header />
+        <Banner />
+        <AssessmentList />
       </div>
     </div>
   );
